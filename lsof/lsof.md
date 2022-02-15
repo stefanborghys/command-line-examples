@@ -2,8 +2,8 @@
 
 Command meaning 'List open files'. Used to report a list of all open files and the processes that openend them.
 
-Github: [https://github.com/lsof-org/lsof](https://github.com/lsof-org/lsof)  
-Wikipedia: [https://en.wikipedia.org/wiki/Lsof](https://en.wikipedia.org/wiki/Lsof)  
+Github: https://github.com/lsof-org/lsof  
+Wikipedia: https://en.wikipedia.org/wiki/Lsof  
 
 ## Commands
 
@@ -41,4 +41,4 @@ Combining some of the above lsof commands to retrieve the PID of a running proce
 Allows to retrieve the PID an kill it:  
 `sudo kill -9 $(sudo lsof -t -i:8080)`
 
-Source: [https://tecadmin.net/kill-process-on-specific-port/](https://tecadmin.net/kill-process-on-specific-port/)
+Source: https://tecadmin.net/kill-process-on-specific-port
